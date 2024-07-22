@@ -1,0 +1,48 @@
+.mainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#search-input {
+    width: 60%;
+    padding : 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-color: orange;
+    
+}
+
+.card-wrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-around;
+    gap: 40px;
+    color: ornage;
+}
+
+.pagination-wrapper {  
+    margin: 4rem auto;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.button {
+    background-color: orange;
+    opacity: 0.6;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
